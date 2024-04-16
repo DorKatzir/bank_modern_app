@@ -1,3 +1,3 @@
-# Bank Modern App - React + Vite
-
+# Bank Modern App 
+## React + Tailwind / landing page
 
