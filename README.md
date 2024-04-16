@@ -1,3 +1,3 @@
 # Bank Modern App 
-## React + Tailwind / landing page
+###  Landing Page Created with React + Tailwind + Vite
 
