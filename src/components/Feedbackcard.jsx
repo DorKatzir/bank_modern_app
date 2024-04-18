@@ -1,9 +1,7 @@
 
 
-const Feedbackcard = () => {
-  return (
-    <div>Feedbackcard</div>
+const FeedbackCard = () =>  (
+    <div>FeedbackCard</div>
   )
-}
 
-export default Feedbackcard
+export default FeedbackCard
