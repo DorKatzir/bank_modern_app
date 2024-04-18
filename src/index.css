@@ -139,6 +139,10 @@
   filter: blur(750px);
 }
 
+
+
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -146,16 +150,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  /* background: hsl(0 0% 95% /.5); */
+  background: rgb(0 4 15 / 1);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: linear-gradient(180deg, rgba(187, 165, 255, 0.2) 0%, #214d76 100%);
 }
