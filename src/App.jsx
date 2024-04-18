@@ -4,18 +4,22 @@ import {  Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Client
 const App = () => 
   (
     <div className="bg-primary w-full overflow-hidden">
+
+      {/* NAVBAR */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={styles.boxWidth}>
             <Navbar />
           </div>
       </div>
 
+      {/* HERO */}
       <div className={`bg-primary ${styles.flexStart}`}>
           <div className={styles.boxWidth}>
             <Hero />
           </div>
       </div>
 
+      {/* CONTENT */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={styles.boxWidth}>
             <Stats />
@@ -29,9 +33,7 @@ const App = () =>
           </div>
       </div>
 
-
     </div>
   )
-
 
 export default App
