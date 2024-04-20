@@ -24,7 +24,7 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        <img src={toggle ? close : menu} alt="menue" className='w-[28px] h-[28px] object-contain' onClick={()=>setToggle((prev) => !prev)} />
+        <img src={toggle ? close : menu} alt="menue" className='w-[28px] h-[28px] object-contain cursor-pointer hover:fill-secondary' onClick={()=>setToggle((prev) => !prev)} />
         <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {

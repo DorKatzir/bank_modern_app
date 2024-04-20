@@ -27,6 +27,9 @@ export default {
       xl: "1700px",
     },
   },
+   variants: {
+    filter: ['hover', 'focus'],
+  },
   plugins: [],
 }
 
