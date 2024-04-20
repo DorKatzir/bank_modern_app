@@ -142,7 +142,6 @@
 
 
 
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -162,5 +161,9 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, rgba(187, 165, 255, 0.2) 0%, #214d76 100%);
+  background: linear-gradient(180deg, #bba5ff33 0%, #214d76 100%);
+}
+
+.client-logo:hover{
+  filter: invert(76%) sepia(72%) saturate(2615%) hue-rotate(133deg) brightness(106%) contrast(103%);
 }
